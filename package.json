@@ -1,0 +1,21 @@
+{
+  "name": "katas-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "compile:watch": "npm run compile -- --watch",
+    "compile:build": "tsc -b",
+    "test": "vitest run --reporter=verbose",
+    "test:watch": "npm run test -- --watchAll",
+    "test:coverage": "npm run test -- --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
